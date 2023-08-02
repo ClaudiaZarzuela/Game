@@ -1,0 +1,6 @@
+MC_Animations.png
+size:2052,1540
+filter:Linear,Linear
+pma:true
+Main Character
+bounds:2,2,2048,1536
