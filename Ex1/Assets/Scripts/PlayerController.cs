@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float movement;
     public float jumpSpeed;
-    public Rigidbody2D rigidbody;
+    public Rigidbody rigidbody;
     public string currentState;
     public string previousState;
     public string currentAnimation;
@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     {
         currentState = "Idle";
         setCharacterState(currentState);
-        rigidbody = GetComponent<Rigidbody2D>();
+        rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
